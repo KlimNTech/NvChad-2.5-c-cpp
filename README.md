@@ -3,7 +3,7 @@ Hey! This is my NeoVim config based on NvChad V2.5. I’ve added some tweaks fro
 
 Here’s how it works:
 1. First, compile your program through the command line (you can do this directly in NeoVim).
-2. Once compiled, you can debug your code with CodeLLDB using the shortcut keys (check them in the lua.dap file).
+2. Once compiled, you can debug your code with CodeLLDB using the shortcut keys (check them in the dap.lua file).
 
 A few setup steps:
 - In dap.lua, make sure to specify the folder location of your codelldb after "command =". You can use either an independently installed version or the one installed via Mason.
