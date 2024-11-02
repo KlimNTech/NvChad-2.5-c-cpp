@@ -1,3 +1,4 @@
+
 Hey! This is my NeoVim config based on NvChad V2.5. I’ve added some tweaks from ProgrammingRainbow (https://www.youtube.com/@ProgrammingRainbow) and set up the C/C++ debugger using CodeLLDB through nvim-dap.
 
 Here’s how it works:
@@ -7,7 +8,8 @@ Here’s how it works:
 A few setup steps:
 - In dap.lua, make sure to specify the folder location of your codelldb after "command =". You can use either an independently installed version or the one installed via Mason.
 - If you’re using the version from Mason, find its path by running this command:
-
-lua print(vim.fn.stdpath("data") .. "/mason/packages/codelldb/")
+  ```lua
+  print(vim.fn.stdpath("data") .. "/mason/packages/codelldb/")
+  ```
 
 Happy coding and debugging!
